@@ -1,0 +1,19 @@
+h1 {
+    color:aqua;
+    text-align: center;
+}
+h2 {
+    color:aqua;
+}
+img {
+    width: 200px;
+    border-redius: 100px;
+}
+p {
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+}
