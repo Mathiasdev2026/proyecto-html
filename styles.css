@@ -1,5 +1,7 @@
 body {
     background: rgb(121, 209, 209);
+    margin: 0;
+    padding: 20px;
 }
 
 div {
@@ -16,11 +18,14 @@ div {
 
 h1 {
     margin: 0;
+    text-align: center;
 
 }
 
 p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
@@ -30,6 +35,8 @@ li {
 img {
     width: 400px;
     border: 10px solid  lab(45.8% 8.04 -49.75);
-    border-radius: 100px;
+    border-radius: 40px;
     box-shadow: opx  0px  20px  black;
+    max-width: 100%;
+
 }
