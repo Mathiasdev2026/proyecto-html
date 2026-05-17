@@ -6,7 +6,9 @@
         <meta name="viewport"  content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="box">
+        <button onclick="mostrarCarta()">Abrir carta
+        </button>
+        <div class="box" id="carta">
             <img src="https://i.pinimg.com/1200x/34/87/64/34876428c436fc71a20b75f65275316e.jpg">
             <h1>Para usted </h1>
             <p>
@@ -15,8 +17,11 @@
                 me siento feliz de verdad, gracias por hacerme soreir en los dias mas raros
                 Te amo mi niña 💗
             </p>
-
-
         </div>
+        <script>
+            function mostrarCarta(){
+                document.getElementById("carta").style.display = "block";
+            }
+        </script>
     </body>
 </html>
