@@ -4,7 +4,7 @@ body {
 }
 
 .box {
-    width: 320px;
+    width: 90%;
     height: auto;
     background: #e2e2e2;
     margin: auto;
@@ -18,6 +18,7 @@ body {
     text-align: center;
     background: linear-gradient(#0009, transparent);
     border-top: 8px solid #411132;
+    max-width: 350px;
 }
 
 h1 {
@@ -29,13 +30,13 @@ h1 {
 p {
     text-align: center;
     text-shadow: 0 0 8px #bb8080;
-    font-size: 20px;
+    font-size: 18px;
     color: white
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 3px;
     border: 5px solid rgb(173, 107, 204);
     box-shadow:  0 0 40px 0 #f37bc1;
