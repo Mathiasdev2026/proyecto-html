@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>sombras</title>
+        <title>jgjfhegud</title>
         <link rel="stylesheet" href="styles.css">
-        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <button onclick="mostrarCarta()">Abrir carta
-        </button>
-        <div class="box" id="carta">
-            <img src="https://i.pinimg.com/1200x/34/87/64/34876428c436fc71a20b75f65275316e.jpg">
-            <h1>Para usted </h1>
-            <p>
-                💖Desde que llegaste haces mis dias màs bonitos.
-                Talvez no soy perfecto, pero cada vez que hablo contigo
-                me siento feliz de verdad, gracias por hacerme soreir en los dias mas raros
-                Te amo mi niña 💗
-            </p>
+        <form>
+        <h2
+        >formulario de contacto
+        </h2>
+        <fieldset>
+            <legend>IMFORMACION BASICA</legend>
+        <di class="form_input">
+            <label>Nombre completo</label>
+            <input type="text" placeholder="">
+        </di>
+        <div class="form_input">
+            <label>email</label>
+            <input type="email" placeholder="">
         </div>
-        <script>
-            function mostrarCarta(){
-                document.getElementById("carta").style.display = "block";
-            }
-        </script>
+        <di class="form_input">
+            <label>Asunto</label>
+            <input type="text" placeholder="">
+        </di>
+        </fieldset>
+        <div class="Tipo de usurio">
+            <label>tipo de usuario
+                <select>
+                    <option value="user1">Soy dalto</option>
+                    <option value="user2">Soy Messi</option>
+                    <option value="user3">Soy Mathias</option>
+                </select>
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Mensaje</label>
+            <textarea rows="8" placeholder="Deja tu mensaje.."></textarea>
+        </div>
+        <div>
+            <label>Acepto los <a href="terms.html">terminos y condiciones</a>
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+    </form>
     </body>
 </html>
