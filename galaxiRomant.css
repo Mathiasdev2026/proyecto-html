@@ -43,3 +43,16 @@ p {
     font-family: cursive;
     line-height: 1.5;
 }
+
+.amo{
+    line-height: 2.5;
+    color: #7df9ff;
+    text-shadow: 0 0 10px #7df9ff;
+    font-size: 20px;
+}
+
+.rayito{
+    color: #ff7eb9;
+    text-shadow: 0 0 15px #ff7eb9;
+    font-size: 20px;
+}
