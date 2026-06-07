@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://img.magnific.com/vector-gratis/fondo-elementos-fiesta_1048-2834.jpg?semt=ais_hybrid&w=740&q=80);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    color: #87CEEB;
+}
+
+div{
+    width: 50%;
+    background-color: #d15aa9;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    top: 50%;
+    left: 20%;
+    box-shadow: 0 0px 200px hsl(46, 97%, 47%);
+
+    text-align: center;
+    background: linear-gradient(rgb(44, 44, 42), #1E3A5F);
+}
+
+h1, h2{
+    color: #d4af37;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+p{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+h2{
+    font-size: 18;
+    padding-top: 1px;
+}
+
+.flotar {
+    animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0% {
+    transform: translateY(0px);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 70px;
+    margin: 1px;
+    box-shadow: 0px 0px 15px #d4af37;
+}
