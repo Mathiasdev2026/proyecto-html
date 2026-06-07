@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #fa3d9b;
+    background: linear-gradient(45deg, hotpink, #ff66c4, #ff99dd);
+    background-size: 300%  300%;
+    animation: fondo 6s ease infinite;
+    @keyframes fondo{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position 0% 50%;
+        }
+    }
+}
+
+.box {
+    width: 90%;
+    height: auto;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 #0009;
+    padding: 20px;
+    padding-bottom: 60px;
+    font-family: cursive;
+    box-sizing: border-box;
+    color: #444;
+    text-align: center;
+    background: linear-gradient(#0009, transparent);
+    border-top: 8px solid #411132;
+    max-width: 350px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 8px #bb8080;
+}
+
+p {
+    text-align: center;
+    text-shadow: 0 0 8px #bb8080;
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+    border: 5px solid rgb(173, 107, 204);
+    box-shadow:  0 0 40px 0 #f37bc1;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+}
+
+.box {
+    animation: flotar 1s ease, flotar 2s ease-in-out infinite;
+}
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes flotar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#carta {
+    display: none;
+}
+
+button{
+    padding: 15px 24px;
+    border: none;
+    border-radius: 10px;
+    background: hotpink;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    transition: 0.3s;
+}
+*{
+    transition: 0,3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
