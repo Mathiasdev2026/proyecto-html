@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: #f7f6f5;
+    background-color: hwb(30 89% 10%);
     text-align: center;
 }
 
@@ -48,13 +48,23 @@ img{
 
 .cart{
     background-color: white;
-    width: 200px;
+    width: 350px;
     margin: auto;
     overflow: hidden;
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 7px black;
+}
+
+.cart p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.mt{
+    width: 100%;
+    height: 250px;
 }
 
 .nosotros{
